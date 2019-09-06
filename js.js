@@ -20,17 +20,31 @@
 //   'Нормано';
 // alert( result );
 
-let result;
-let a = prompt('aaa', "");
-let b = prompt('bbb', "");
 
-if (a + b < 4) {
-	alert( 'Мало' );
-}
-if (a + b > 4) {
-	alert(" Много ");
-} 
-if (a + b == 4) {
-  alert( 'Номано' );
-}
+// let a = prompt('aaa', "");
+// let b = prompt('bbb', "");
+
+// if (a + b < 4) {
+// 	alert( 'Мало' );
+// }
+// else if (a + b > 4) {
+// 	alert( 'Много' );
+// } 
+// else if (a + b == 4) {                               ????????????????
+//   alert( 'Номано' );
+// }
+
+// let message = (login == 'Сотрудник') ? 'Привет' :
+//  (login == 'Директор') ? 'Здравствуйте' :
+//  (login == '') ? 'Нет логина' :
+//  '';
+
+let result;
+let a = Number(prompt('Назови первое число', ""));
+let b = Number(prompt('Назови второе число', ""));
+result = (a + b < 20) ? 'Мало' : 
+result = (a + b > 20) ? 'Много' : 
+result = (a + b == 20) ? 'Номано' : 
+console.log( result );
+
 
